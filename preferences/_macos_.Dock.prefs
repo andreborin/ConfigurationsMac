@@ -4,6 +4,13 @@
 defaults write com.apple.dock tilesize -int 64
 defaults write com.apple.dock autohide -bool true
 
+# Check for:
+#    largesize = 128
+#    tilesize = 27
+#    magnification = 1;
+#    mineffect = scale;
+#    orientation = right;
+
 # no boucing icons
 defaults write com.apple.dock no-bouncing -bool true
 
